@@ -4,7 +4,7 @@
 """
 
 
-def add(a: float,b: float) -> float:
+def add(a: float, b: float) -> float:
     """
     return addition on a and b,flaot
     """
