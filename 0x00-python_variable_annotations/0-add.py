@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """
-function add
+Add function
 """
 
-def add(a: float,b: float) -> float:
+
+def add(a: float, b: float) -> float:
     """
     return addition on a and b,flaot
     """
