@@ -1,5 +1,7 @@
 ##!/usr/bin/env python3
-
+"""
+annotation example
+"""
 
 a: int = 1
 pi: float = 3.14
