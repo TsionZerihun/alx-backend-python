@@ -3,7 +3,7 @@
 str Function
 """
 
-def to_str(n: int) -> str:
+def to_str(n: float) -> str:
     """
     return str of int n
     """
