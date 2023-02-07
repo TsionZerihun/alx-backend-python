@@ -6,7 +6,7 @@ floor Function
 
 def floor(n: float) -> int:
     """
-    return int of a floor
+    Return int of a floor
     """
 
     return int(n)
