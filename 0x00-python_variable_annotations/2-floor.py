@@ -10,3 +10,7 @@ def floor(n: float) -> int:
     """
 
     return int(n)
+
+
+ans = floor(2.807)
+print(ans)
