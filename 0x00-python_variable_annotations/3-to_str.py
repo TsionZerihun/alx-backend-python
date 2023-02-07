@@ -5,7 +5,7 @@ str Function
 
 def to_str(n: float) -> str:
     """
-    return str of int n
+    Return str of int n
     """
     
 
