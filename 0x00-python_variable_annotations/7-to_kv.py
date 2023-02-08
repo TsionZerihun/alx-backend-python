@@ -2,10 +2,10 @@
 """
 tokv function
 """
-from typing import List, Union
+from typing import Tuple, Union
 
 
-def to_kv(k: str,v: List[Union[int, float]]) -> List[Union[int, float]]:
+def to_kv(k: str,v: Union[int, float]) -> Tuple[int, float]]:
     """
     return tuple
     """
