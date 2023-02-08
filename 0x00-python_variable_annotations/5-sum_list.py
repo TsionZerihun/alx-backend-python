@@ -6,12 +6,12 @@ from typing import List
 
 
 def sum_list(input_list: List[float]) -> float:
-    """
+"""
         Args:
-            input_list: float number
+            input_list: float numbers
 
         Return:
-            Sum of the float number
+            Sum of the float numbers
     """
 
     result: float = 0
