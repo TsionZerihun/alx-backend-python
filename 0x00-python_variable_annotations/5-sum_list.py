@@ -2,9 +2,8 @@
 """
 sum list function
 """
-
-
 from typing import List
+
 
 def sum_list(input_list: List[float]) -> float:
     """
@@ -12,6 +11,7 @@ def sum_list(input_list: List[float]) -> float:
     
     returns float
     """
+    
     sum: float = 0
         
     for i in input_list:
