@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-sum list function
+    sum list function
 """
 from typing import List
 
