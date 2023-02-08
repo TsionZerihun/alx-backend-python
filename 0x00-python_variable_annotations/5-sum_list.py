@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-	List of floats annotations
+    List of floats annotations
 """
 from typing import List
 
