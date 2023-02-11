@@ -1,18 +1,19 @@
 #!/usr/bin/env python3
 """
-callable function
+make multiplier
 """
 from typing import Callable
 
 
 def make_multiplier(multiplier: float) -> Callable[[float], float]:
     """
-    return a function
+    Takes a float multiplier as argument and returns a function that
+    multiplies a float by multiplier
     """
-    def fun(number: float) -> float:
+    def func1(number: float) -> float:
         """
-        multiplies a number with float
+        Multiplies a float with the multiplier
         """
-        return number * multiplier
+        return multiplier * number
 
-    return fun
+    return func1
