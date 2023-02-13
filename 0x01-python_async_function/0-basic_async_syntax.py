@@ -3,7 +3,6 @@
 Basic syntax await async wait_random
 """
 
-
 import asyncio
 import random
 
