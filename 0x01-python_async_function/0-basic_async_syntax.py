@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
-"""
-asynchronous coroutine wait_random
-"""
+""" Basics of async """
 
 
 import asyncio
