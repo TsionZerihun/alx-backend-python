@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
-"""
-Basics of async
-"""
+""" Basic syntax await async """"""
 
 
 import asyncio
