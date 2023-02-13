@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-make element length
+Element length
 """
 from  typing import Iterable, Sequence, List, Tuple
 
