@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """ 
-Basic coroutine wait_random
+COntains coroutine wait_random
 """
 
 import asyncio
