@@ -9,7 +9,7 @@ import random
 
 async def wait_random(max_delay: int = 10) -> float:
     """
-    generates random delay between 0 and max_delay
+    waits random delay between 0 and max_delay
     and returns it
     """
     wait_time = max_delay * random.random()
