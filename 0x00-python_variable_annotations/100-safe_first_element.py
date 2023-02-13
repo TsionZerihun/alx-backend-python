@@ -1,15 +1,20 @@
 #!/usr/bin/env python3
 """
-duck-typed annotation
+    Duck typing sequence Any
 """
-from typing import List, Union
+from typing import Any, Sequence, Union
 
 
-def safe_first_element(lst: List) -> Union[Any, None]:
+# The types of the elements of the input are not know
+def safe_first_element(lst: Sequence[Any]) -> Union[Any, None]:
     """
-    Return first Element
+        Args:
+            lst: Any data type
+
+        Return:
+            None or first element
     """
-    try:
+    if lst:
         return lst[0]
-    except TypeError as e:
-        print(e)
+    else:
+        return None
