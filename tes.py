@@ -1,11 +1,4 @@
-##!/usr/bin/env python3
-"""
-Add function
-"""
-
-
-def add(a: float, b: float) -> float:
-    """
-    Returns a float addition of a and b
-    """
-    return a + b
+x=3.4
+y=str(x)
+print(x)
+print(y)
