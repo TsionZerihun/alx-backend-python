@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-""" Basic syntax await async wait_random"""
+""" 
+Basic syntax await async wait_random
+"""
 
 
 import asyncio
