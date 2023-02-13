@@ -2,7 +2,7 @@
 """
 duck-typed annotation
 """
-from typing impoer List
+from typing import List
 
 
 def safe_first_element(lst: List) -> int:
