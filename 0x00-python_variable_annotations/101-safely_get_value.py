@@ -3,6 +3,8 @@
 typeVar annotation
 """
 from typing import Mapping, Any, Union, TypeVar
+
+
 T = TypeVar('T')
 Ret = Union[Any, T]
 
