@@ -9,7 +9,7 @@ from typing import List
 task_wait_random = __import__('3-tasks').task_wait_random
 
 
-async def task_with_random(n: int, max_delay: int) -> List[float]:
+async def task_wait_n(n: int, max_delay: int) -> List[float]:
     """
     Spawn wait_random n  addtimes with the specified max_delay
     """
